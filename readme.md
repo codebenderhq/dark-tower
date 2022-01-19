@@ -11,6 +11,7 @@
 ## How To Run
 
 cd into directory
+
 ``` deno run --allow-run index.ts server ``` to launch server
 
 ``` deno run --allow-run index.ts darktower ``` to launch dir watcher

@@ -1,7 +1,8 @@
-const directory = `./${sdk.env.get('watch')}/`
-const sdkDirectory = `./${sdk.env.get('sdk')}`
 // @ts-ignore
 import * as sdk from "../../imports/index.ts";
+const directory = `./${sdk.env.get('watch')}/`
+const sdkDirectory = `./${sdk.env.get('sdk')}`
+
 
 const update = () => {
 

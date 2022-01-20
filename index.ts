@@ -1,4 +1,3 @@
-import './core/cli.ts'
 
 async function runCli() {
 

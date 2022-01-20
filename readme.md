@@ -21,5 +21,6 @@ cd into directory
 - Set enviroment variables of dir to watch and update
   - ```watch=dir to watch``` 
   - ```sdk= dir to update```
+  - ```watchfs= name of dir to watch```
   - replace the above with the directories you would like to watch 
 - This might not work on windows

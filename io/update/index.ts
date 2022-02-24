@@ -106,8 +106,18 @@ const update = () => {
         checkFile()
     }
 
-    checkFile()
-    console.log('watching the files to update',directory)
+    const upgradeFile = async () => {
+
+        await sdk.copyDirectory(sdkDirectory, `${directory}/`)
+    }
+
+    if(Deno.args[1] == "upgrade"){
+        console.log('upgrading current sdk')
+        upgradeFile()
+    }else{
+        // checkFile()
+        console.log('watching the files to update',directory)
+    }
 }
 
 

@@ -16,8 +16,10 @@ cd into directory
 
 ``` deno run --allow-run index.ts darktower ``` to launch dir watcher
 
+``` deno run --allow-run index.ts darktower upgrade``` to update the file being watched with the latest changes from the file being updated
+
 ### Todo 
- - Allow running of project and watcher at the name time
+ - Allow running of project and watcher at the name time (maybe)
 
 ### Notes
 - Set enviroment variables of dir to watch and update

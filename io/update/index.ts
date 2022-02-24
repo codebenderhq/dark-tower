@@ -109,11 +109,13 @@ const update = () => {
     const upgradeFile = async () => {
 
         await sdk.copyDirectory(sdkDirectory, `${directory}/`)
+        console.log('upgrading completed')
     }
 
     if(Deno.args[1] == "upgrade"){
         console.log('upgrading current sdk')
         upgradeFile()
+
     }else{
         // checkFile()
         console.log('watching the files to update',directory)
